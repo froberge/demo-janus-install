@@ -1,11 +1,11 @@
 kind: Application
 apiVersion: argoproj.io/v1alpha1
 metadata:
-  name: janus-argo
+  name: janus-argocd
   namespace: openshift-gitops
 spec:
   destination:
-    namespace: janus-argo
+    namespace: janus-argocd
     server: https://kubernetes.default.svc
   project: janus
   source:
