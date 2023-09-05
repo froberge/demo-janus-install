@@ -1,6 +1,12 @@
 ## Folder that contains the different information for creating a service Accounts
 
-### Add and extra user to openShift gitOps adn make it admin
+### Add values
+```
+oc adm policy add-cluster-role-to-user cluster-admin -z openshift-gitops-argocd-application-controller -n openshift-gitops
+```
+
+
+### Add an extra user to OpenShift gitOps adm make it admin
 
 Add this section to the CRD argoCD.
 ```
@@ -25,3 +31,9 @@ spec:
 :warning: the default password is the admin password.
 
 argocd account update-password --account <user> --new-password <passowrd> --current-password <admin-password> --grpc-web
+
+### Install another argocd to manage the janus argocd
+```
+oc apply -k setup/base
+```
+

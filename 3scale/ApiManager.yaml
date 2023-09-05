@@ -15,4 +15,4 @@ spec:
     redisResources:
       limits:
         memory: 6Gi
-  wildcardDomain: apps.maindeck.fleetcarrier.ca
+  wildcardDomain: apps.wingman.fleetcarrier.ca
