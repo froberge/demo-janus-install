@@ -7,4 +7,3 @@ resources:
   - secret.yaml
   - argocd.yaml
   - rbac.yaml
-  - rbac-image-puller.yaml
