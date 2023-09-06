@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
   - namespace.yaml
-  - janus-apps.yaml
-#  - secret.yaml
+  - janus-project.yaml
+#pro  - secret.yaml
   - argocd.yaml
   - rbac.yaml
