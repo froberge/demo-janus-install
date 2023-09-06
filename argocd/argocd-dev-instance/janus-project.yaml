@@ -2,7 +2,6 @@ kind: AppProject
 apiVersion: argoproj.io/v1alpha1
 metadata:
   name: janus
-  namespace: janus-argocd
   
 spec:
   clusterResourceWhitelist:
