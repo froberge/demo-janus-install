@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: janus
   source:
-    path: argocd/cluster-apps
+    path: argocd/argocd-dev-instance
     repoURL: https://github.com/froberge/demo-janus-install.git
     targetRevision: main
   syncPolicy:
