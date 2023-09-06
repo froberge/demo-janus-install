@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
   - namespace.yaml
   - janus-project.yaml
-  - secret.yaml
+  #- secret.yaml
   - argocd.yaml
-  - rbac.yaml
+  - ocp-gitops-extended-clusterrole.yaml
+  - ocp-gitop-extended-clusterrolebinding.yaml
