@@ -16,6 +16,11 @@ spec:
       tls:
         termination: edge
         insecureEdgeTerminationPolicy: Redirect
+  rbac:
+    defaultPolicy: ''
+    policy: |
+      p, role:argo-admin, clusters, *, *, allow
+    scopes: '[groups]'        
   dex:
     openShiftOAuth: true
   resourceCustomizations: |
