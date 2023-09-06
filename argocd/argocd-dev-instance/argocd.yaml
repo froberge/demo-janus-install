@@ -5,7 +5,7 @@ metadata:
     argocd.argoproj.io/sync-options: Prune=false
     argocd.argoproj.io/compare-options: IgnoreExtraneous
   name: janus-argocd
-#  namespace: janus-argocd
+  namespace: janus-argocd
 spec:
   server:
     insecure: true
