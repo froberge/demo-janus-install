@@ -7,4 +7,4 @@ resources:
   #- secret.yaml
   - argocd.yaml
   - ocp-gitops-extended-clusterrole.yaml
-  - ocp-gitop-extended-clusterrolebinding.yaml
+  - ocp-gitops-extended-clusterrolebinding.yaml
