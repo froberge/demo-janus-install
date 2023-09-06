@@ -5,7 +5,7 @@ metadata:
   namespace: openshift-gitops
 spec:
   destination:
-    namespace: janus-argocd
+#    namespace: janus-argocd
     server: https://kubernetes.default.svc
   project: janus
   source:
