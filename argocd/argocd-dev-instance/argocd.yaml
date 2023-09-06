@@ -7,8 +7,6 @@ metadata:
   name: argocd
   namespace: janus-argocd
 spec:
-  data:
-    policy.csv: g, system:cluster-admins, role:admin
   server:
     insecure: true
     route:
