@@ -25,7 +25,9 @@ oc get sa
 
 1. Create the token
     ```
-    oc create token -n default rhdh-ocm-sa
+    oc create token -n default rhdh-ocm-sa --duration=999999s
+
+    
     ```
 
 ## For K8s
@@ -46,7 +48,7 @@ oc get sa
 
 1. Create the token
     ```
-    oc create token -n default rhdh-k8s-sa
+    oc create token -n default rhdh-k8s-sa --duration=999999s
     ```
 
 ### Retrieve token
